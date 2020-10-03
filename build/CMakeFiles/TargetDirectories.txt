@@ -1,0 +1,3 @@
+/home/cong/student1819007/Project1-A_ and Adaptive A_/build/CMakeFiles/rebuild_cache.dir
+/home/cong/student1819007/Project1-A_ and Adaptive A_/build/CMakeFiles/edit_cache.dir
+/home/cong/student1819007/Project1-A_ and Adaptive A_/build/CMakeFiles/main.dir

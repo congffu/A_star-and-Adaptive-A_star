@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Astar.h
+iostream
+-
+vector
+-
+list
+-
+queue
+-
+unordered_map
+-
+
+/home/cong/student1819007/Project1-A_ and Adaptive A_/src/Astar.cpp
+math.h
+-
+algorithm
+-
+iostream
+-
+string
+-
+Astar.h
+/home/cong/student1819007/Project1-A_ and Adaptive A_/src/Astar.h
+
+/home/cong/student1819007/Project1-A_ and Adaptive A_/src/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+list
+-
+Astar.h
+/home/cong/student1819007/Project1-A_ and Adaptive A_/src/Astar.h
+

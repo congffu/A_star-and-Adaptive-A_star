@@ -214,7 +214,7 @@ void Astar::updateHeuristic()
     }
     else
     {
-      expandedSet.insert({ to_string(p->x) + to_string(p->y), p });
+      expandedSet.insert({to_string(p->x) + to_string(p->y), p});
     }
     
   }

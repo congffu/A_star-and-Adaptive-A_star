@@ -116,7 +116,7 @@ int main(int argc, char** argv)
   {
 
       astar.InitAstar(relativeMap);
-      // adaptive astar, update heuristic of expanded node in closed list 
+      // adaptive astar, update heuristic of expanded node in closed list
       if (initial == false && adaptive == true)
       {
         astar.updateHeuristic();
@@ -132,7 +132,7 @@ int main(int argc, char** argv)
       }
       
       // find shortest path from current start point to the goal point
-      list<Point *> path = astar.GetPath(start, end, false);
+      list<Point*> path = astar.GetPath(start, end, false);
 
       // check path
       if (!path.empty())
